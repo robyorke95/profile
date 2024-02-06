@@ -1,0 +1,115 @@
+body{
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #ffd700;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI';
+  color: #444;
+}
+
+h1 {
+  font-size: 28px;
+  color: #8b0000;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 24px;
+  color: #8b0000;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 20px;
+  color: #8b0000;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+a[href="https://www.instagram.com/robdraken"] {
+  color: #ff007f;
+}
+
+a[href="https://soundcloud.com/roberto-ferrara-7"] {
+  color: #ff7f00;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a[href="https://www.instagram.com/robdraken"]:hover {
+  color: #bf0040;
+}
+
+a[href="https://soundcloud.com/roberto-ferrara-7"]:hover {
+  color: #993d00;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container{
+    width: 400px;
+  }
+  .card img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 300px;
+  }
+  .card img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 200px;
+  }
+  .card img {
+    width: 100px;
+  }
+}
+
+.card {
+  background: #000000;
+  padding: 30px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
